@@ -1,0 +1,17 @@
+[package]
+name = "test_website"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+web-sys = { version = "0.3", features = [
+  "Document",
+  "Window",
+  "Element",
+  "Event",
+  "HtmlInputElement",
+  "HtmlButtonElement",
+  "SubmitEvent",
+  "InputEvent",
+] }
+yew = { version = "0.21.0", features = ["csr"] }
