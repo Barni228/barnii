@@ -29,7 +29,7 @@ fn App() -> Html {
                     type="text"
                     value={(*input_text).clone()}
                     {oninput}
-                    placeholder="Enter something"
+                    placeholder="Hello, 7ven"
                     style="font-size: 1.5rem; padding: 0.5rem; margin-bottom: 2rem; width: 300px;"
                 />
                 <button
